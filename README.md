@@ -67,3 +67,5 @@ Your feedback and contributions are welcome!
 
 ## Demo
 `curl https://cf-duckdb.ohmdob.workers.dev/barcode/8852240040184`
+
+## sampling data by openfoodfacts
