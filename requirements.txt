@@ -1,0 +1,5 @@
+# Web server
+flask
+
+# Database
+duckdb>=0.8.1

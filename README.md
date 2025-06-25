@@ -57,3 +57,13 @@ To learn more about Containers, take a look at the following resources:
 - [Container Class](https://github.com/cloudflare/containers) - learn about the Container helper class
 
 Your feedback and contributions are welcome!
+
+
+## Build 
+`docker build --platform linux/amd64 -t cf-duckdb`
+
+## Run as service
+`docker run -d --name barcode-th -p 80:8080 cf-duckdb`
+
+## Demo
+`curl https://cf-duckdb.ohmdob.workers.dev/barcode/8852240040184`
