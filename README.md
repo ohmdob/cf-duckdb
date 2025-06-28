@@ -60,7 +60,7 @@ Your feedback and contributions are welcome!
 
 
 ## Build 
-`docker build --platform linux/amd64 -t cf-duckdb`
+`docker build --platform linux/amd64 -t cf-duckdb .`
 
 ## Run as service
 `docker run -d --name barcode-th -p 80:8080 cf-duckdb`
